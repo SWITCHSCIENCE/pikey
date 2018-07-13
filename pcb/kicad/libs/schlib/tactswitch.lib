@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# tactswitch
+#
+DEF ~tactswitch S 0 40 Y Y 1 F N
+F0 "S" 0 200 60 H V C CNN
+F1 "tactswitch" 0 -100 60 H I C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C -150 0 11 0 1 0 F
+C 150 0 11 0 1 0 F
+P 2 0 1 0 -150 100 150 100 N
+P 5 0 1 0 -50 150 50 150 50 100 -50 100 -50 150 N
+X ~ 1 -350 0 200 R 50 50 1 1 P
+X ~ 2 350 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
