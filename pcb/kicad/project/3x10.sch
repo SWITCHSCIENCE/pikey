@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:3x10-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:3x10
-LIBS:3x10-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -817,38 +815,136 @@ Connection ~ 6600 2600
 Connection ~ 6600 3500
 Connection ~ 6600 4400
 Wire Wire Line
-	5800 1100 5800 5300
+	5800 1100 5800 1700
 Wire Wire Line
-	6600 1100 6600 5300
+	5800 1700 5800 2600
 Wire Wire Line
-	7400 1100 7400 5300
+	5800 2600 5800 3500
 Wire Wire Line
-	8200 1100 8200 5300
+	5800 3500 5800 4400
 Wire Wire Line
-	9000 1100 9000 5300
+	5800 4400 5800 5300
 Wire Wire Line
-	9800 1100 9800 5300
+	6600 1100 6600 1700
+Wire Wire Line
+	6600 1700 6600 2600
+Wire Wire Line
+	6600 2600 6600 3500
+Wire Wire Line
+	6600 3500 6600 4400
+Wire Wire Line
+	6600 4400 6600 5300
+Wire Wire Line
+	7400 1100 7400 1700
+Wire Wire Line
+	7400 1700 7400 2600
+Wire Wire Line
+	7400 2600 7400 3500
+Wire Wire Line
+	7400 3500 7400 4400
+Wire Wire Line
+	7400 4400 7400 5300
+Wire Wire Line
+	8200 1100 8200 1700
+Wire Wire Line
+	8200 1700 8200 2600
+Wire Wire Line
+	8200 2600 8200 3500
+Wire Wire Line
+	8200 3500 8200 4400
+Wire Wire Line
+	8200 4400 8200 5300
+Wire Wire Line
+	9000 1100 9000 1700
+Wire Wire Line
+	9000 1700 9000 2600
+Wire Wire Line
+	9000 2600 9000 3500
+Wire Wire Line
+	9000 3500 9000 4400
+Wire Wire Line
+	9000 4400 9000 5300
+Wire Wire Line
+	9800 1100 9800 1700
+Wire Wire Line
+	9800 1700 9800 2600
+Wire Wire Line
+	9800 2600 9800 3500
+Wire Wire Line
+	9800 3500 9800 4400
+Wire Wire Line
+	9800 4400 9800 5300
 Connection ~ 9800 2600
 Connection ~ 9800 3500
 Connection ~ 9800 4400
 Wire Wire Line
-	5550 2200 10400 2200
+	5550 2200 6400 2200
+Wire Wire Line
+	6400 2200 7200 2200
+Wire Wire Line
+	7200 2200 8000 2200
+Wire Wire Line
+	8000 2200 8800 2200
+Wire Wire Line
+	8800 2200 9600 2200
+Wire Wire Line
+	9600 2200 10400 2200
 Connection ~ 6400 2200
 Connection ~ 7200 2200
 Connection ~ 8000 2200
 Connection ~ 8800 2200
 Connection ~ 9600 2200
 Wire Wire Line
-	5550 3100 10400 3100
+	5550 3100 6400 3100
+Wire Wire Line
+	6400 3100 7200 3100
+Wire Wire Line
+	7200 3100 8000 3100
+Wire Wire Line
+	8000 3100 8800 3100
+Wire Wire Line
+	8800 3100 9600 3100
+Wire Wire Line
+	9600 3100 10400 3100
 Connection ~ 8800 3100
 Wire Wire Line
-	5550 4000 10400 4000
+	5550 4000 6400 4000
+Wire Wire Line
+	6400 4000 7200 4000
+Wire Wire Line
+	7200 4000 8000 4000
+Wire Wire Line
+	8000 4000 8800 4000
+Wire Wire Line
+	8800 4000 9600 4000
+Wire Wire Line
+	9600 4000 10400 4000
 Connection ~ 8800 4000
 Wire Wire Line
-	5550 4900 10400 4900
+	5550 4900 6400 4900
+Wire Wire Line
+	6400 4900 7200 4900
+Wire Wire Line
+	7200 4900 8000 4900
+Wire Wire Line
+	8000 4900 8800 4900
+Wire Wire Line
+	8800 4900 9600 4900
+Wire Wire Line
+	9600 4900 10400 4900
 Connection ~ 8800 4900
 Wire Wire Line
-	5550 5800 10400 5800
+	5550 5800 6400 5800
+Wire Wire Line
+	6400 5800 7200 5800
+Wire Wire Line
+	7200 5800 8000 5800
+Wire Wire Line
+	8000 5800 8800 5800
+Wire Wire Line
+	8800 5800 9600 5800
+Wire Wire Line
+	9600 5800 10400 5800
 Connection ~ 8800 5800
 Connection ~ 9800 1700
 Wire Wire Line
