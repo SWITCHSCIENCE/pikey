@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:pikey3x10
-LIBS:pikey3x10-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,7 +50,10 @@ P 2650 3050
 F 0 "U1" H 2650 3750 60  0000 C CNN
 F 1 "ProMicro" H 2650 2350 60  0000 C CNN
 F 2 "footprint:promicro" H 2400 3200 60  0001 C CNN
-F 3 "" H 2400 3200 60  0001 C CNN
+F 3 "https://www.sparkfun.com/products/12587" H 2400 3200 60  0001 C CNN
+F 4 "Sparkfun" H 2650 3050 60  0001 C CNN "メーカー"
+F 5 "DEV-12587" H 2650 3050 60  0001 C CNN "SKU"
+F 6 "Pro Micro - 3.3V/8MHz" H 2650 3050 60  0001 C CNN "製品名"
 	1    2650 3050
 	1    0    0    -1  
 $EndComp
@@ -62,7 +64,10 @@ P 6100 1700
 F 0 "MX1" H 6100 1900 60  0000 C CNN
 F 1 "keyswitch" H 6100 1500 60  0001 C CNN
 F 2 "footprint:keyswitch" H 6100 1700 60  0001 C CNN
-F 3 "" H 6100 1700 60  0001 C CNN
+F 3 "http://cherryamericas.com/wp-content/uploads/2014/12/EN_CHERRY_MX1A-1xxx.pdf" H 6100 1700 60  0001 C CNN
+F 4 "Cherry" H 6100 1700 60  0001 C CNN "メーカー"
+F 5 "MX3A-L1NW" H 6100 1700 60  0001 C CNN "SKU"
+F 6 "CHERRY MX" H 6100 1700 60  0001 C CNN "製品名"
 	1    6100 1700
 	1    0    0    -1  
 $EndComp
@@ -73,7 +78,10 @@ P 6400 1950
 F 0 "D1" H 6400 2050 60  0000 C CNN
 F 1 "diode" H 6400 1850 60  0001 C CNN
 F 2 "footprint:diode" H 6400 1950 60  0001 C CNN
-F 3 "" H 6400 1950 60  0001 C CNN
+F 3 "https://docs-apac.rs-online.com/webdocs/10e1/0900766b810e1cd2.pdf" H 6400 1950 60  0001 C CNN
+F 4 "ON Semiconductor" H 6400 1950 60  0001 C CNN "メーカー"
+F 5 "1N4148TA" H 6400 1950 60  0001 C CNN "SKU"
+F 6 "スイッチングダイオード 400mA 100V DO-35" H 6400 1950 60  0001 C CNN "製品名"
 	1    6400 1950
 	0    1    1    0   
 $EndComp
@@ -84,7 +92,10 @@ P 3850 2600
 F 0 "S1" H 3850 2800 60  0000 C CNN
 F 1 "tactswitch" H 3850 2500 60  0001 C CNN
 F 2 "footprint:tactswitch" H 3850 2600 60  0001 C CNN
-F 3 "" H 3850 2600 60  0001 C CNN
+F 3 "https://docs-apac.rs-online.com/webdocs/130e/0900766b8130e12d.pdf" H 3850 2600 60  0001 C CNN
+F 4 "Alps Electric" H 3850 2600 60  0001 C CNN "メーカー"
+F 5 "SKHHAJ" H 3850 2600 60  0001 C CNN "SKU"
+F 6 "タクトスイッチ スルーホール" H 3850 2600 60  0001 C CNN "製品名"
 	1    3850 2600
 	1    0    0    -1  
 $EndComp

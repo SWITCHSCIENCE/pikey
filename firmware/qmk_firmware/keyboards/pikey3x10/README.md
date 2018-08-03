@@ -1,7 +1,4 @@
-元はGherkinをベースにしています。
-https://github.com/di0ib/tmk_keyboard/tree/master/keyboard/gherkin)
-
-Hardware Availability: [Switch Science](https://pages..html)
+A modified version of [Gherkin](https://github.com/di0ib/tmk_keyboard/tree/master/keyboard/gherkin) keyboard
 
 Make example for this keyboard (after setting up your build environment):
 
